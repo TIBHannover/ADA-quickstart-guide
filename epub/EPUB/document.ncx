@@ -18,23 +18,27 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
-      <navLabel><text>Welcome</text></navLabel>
+      <navLabel><text>Welcome to ADA!</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
+      <navPoint id="tH7757657-1">
+        <navLabel><text>What you will learn here:</text></navLabel>
+        <content src="document-1.xhtml#H7757657" />
+      </navPoint>
     </navPoint>
     <navPoint id="t_2_0-2">
-      <navLabel><text>Create</text></navLabel>
+      <navLabel><text>Create a Book</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
     </navPoint>
     <navPoint id="t_3_0-3">
-      <navLabel><text>Team</text></navLabel>
+      <navLabel><text>Invite Your Team</text></navLabel>
       <content src="document-3.xhtml#_3_0" />
     </navPoint>
     <navPoint id="t_4_0-4">
-      <navLabel><text>Output</text></navLabel>
+      <navLabel><text>Make a Repository</text></navLabel>
       <content src="document-4.xhtml#_4_0" />
     </navPoint>
     <navPoint id="t_5_0-5">
-      <navLabel><text>Publish</text></navLabel>
+      <navLabel><text>Publish Multi-format!</text></navLabel>
       <content src="document-5.xhtml#_5_0" />
     </navPoint>
     <navPoint id="t2">
