@@ -4,13 +4,22 @@
     <dc:identifier id="fidus">99</dc:identifier>
     <dc:title>ADA Quickstart Guide</dc:title>
     <dc:creator>
-      Simon Worthington
+      ADA community
     </dc:creator>
     <dc:language>en-GB</dc:language>
-    <meta property="dcterms:modified">2022-04-11T10:54:39Z</meta>
+    <meta property="dcterms:modified">2022-04-11T11:11:37Z</meta>
     <dc:date>2022-04-11</dc:date>
+    <dc:rights>CC BY-SA 4.0</dc:rights>
+    <dc:publisher>ADA-Pipeline project, Open Science Lab</dc:publisher>
+    <dc:subject>multi-format</dc:subject>
+    <dc:subject>git</dc:subject>
+    <dc:subject>publishing</dc:subject>
+    <dc:subject>NextGenBooks</dc:subject>
+    <dc:subject>Open Science Lab</dc:subject>
+    <dc:subject>TIB</dc:subject>
   </metadata>
   <manifest>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" />
     <item id="t1" href="document-1.xhtml" media-type="application/xhtml+xml" />
     <item id="t2" href="document-2.xhtml" media-type="application/xhtml+xml" />
@@ -19,18 +28,24 @@
     <item id="t5" href="document-5.xhtml" media-type="application/xhtml+xml" />
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
-    <item id="font0" href="css/media/NoticiaText-Bold_2.woff" media-type="font/woff" />
-    <item id="font1" href="css/media/NoticiaText-Regular.woff" media-type="font/woff" />
-    <item id="font2" href="css/media/NoticiaText-Italic.woff" media-type="font/woff" />
-    <item id="font3" href="css/media/NoticiaText-BoldItalic.woff" media-type="font/woff" />
-    <item id="font4" href="css/media/SourceSansPro-Bold.woff" media-type="font/woff" />
+    <item id="cover-image" properties="cover-image" href="e1d0482b-48cf-4a26-b320-898874375236.jpg" media-type="image/jpeg" />
+    <item id="font0" href="css/media/NotoSerif-Italic.ttf" media-type="font/sfnt" />
+    <item id="font1" href="css/media/NotoSerif-BoldItalic.ttf" media-type="font/sfnt" />
+    <item id="font2" href="css/media/NotoSerif-Regular.ttf" media-type="font/sfnt" />
+    <item id="font3" href="css/media/NotoSans-SemiBoldItalic.ttf" media-type="font/sfnt" />
+    <item id="font4" href="css/media/NotoSans-SemiBold.ttf" media-type="font/sfnt" />
+    <item id="font5" href="css/media/NotoSans-Medium.ttf" media-type="font/sfnt" />
+    <item id="font6" href="css/media/NotoSans-Regular.ttf" media-type="font/sfnt" />
+    <item id="font7" href="css/media/NotoSans-Italic.ttf" media-type="font/sfnt" />
+    <item id="font8" href="css/media/NotoSerif-Bold.ttf" media-type="font/sfnt" />
     <item id="css0" href="css/document.css" media-type="text/css" />
-    <item id="css1" href="css/springer.css" media-type="text/css" />
+    <item id="css1" href="css/ada001.css" media-type="text/css" />
 
     <!-- ncx included for 2.0 reading system compatibility: -->
     <item id="ncx" href="document.ncx" media-type="application/x-dtbncx+xml" />
   </manifest>
   <spine toc="ncx">
+    <itemref idref="cover" linear="no" />
     <itemref idref="titlepage" linear="yes" />
     <itemref idref="t1" linear="yes" />
     <itemref idref="t2" linear="yes" />
